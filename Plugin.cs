@@ -1,5 +1,5 @@
 ﻿using BepInEx;
-namespace Template;
+namespace Candyland;
 
 [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
 public class Plugin : BaseUnityPlugin
@@ -8,6 +8,6 @@ public class Plugin : BaseUnityPlugin
     {
         // Plugin load logic goes here!
         // This script acts like a unity object.
-        Logger.LogInfo($"Hello World!");
+        Logger.LogInfo($"Candyland dll loaded successfully!");
     }
 }
